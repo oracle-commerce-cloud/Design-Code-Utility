@@ -7,10 +7,15 @@ of storefront assets onto Oracle Commerce Cloud Admin servers.
 
 Install the module:
 
-`npm i --save-dev @oraclecc/dcu`
-`yarn add -D @oraclecc/dcu`
+```$xslt
+yarn add -D @oraclecc/dcu
+```
 
 Now you can use DCU in your CI/CD pipelines.
+
+```$xslt
+yarn dcu -v
+```
 
 Operations, grouped by general function, are split across four tools:
 
