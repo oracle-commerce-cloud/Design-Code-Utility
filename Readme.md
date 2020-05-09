@@ -9,12 +9,14 @@ Install the module:
 
 ```$xslt
 yarn add -D @oraclecc/dcu
+// or
+npm install @oraclecc/dcu
 ```
 
 Now you can use DCU in your CI/CD pipelines.
 
 ```$xslt
-yarn dcu -v
+npx dcu -v 
 ```
 
 Operations, grouped by general function, are split across four tools:
